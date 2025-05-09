@@ -6,9 +6,9 @@ import java.io.File;
 public class GitCloneExample {
     public static void main(String[] args) {
         try {
-            String remoteUrl = "https://github.com/username/repo.git";
+            String remoteUrl = "https://github.com/Sneha23720/JavaCode.git";
             String branch = "main"; // or any branch you want
-            String localDir = "C:/Users/YourName/Downloads/myproject";
+            String localDir = "C:\Users\Sneha1501398\Documents\jgit";
 
             // Clone command
             CloneCommand clone = Git.cloneRepository()
